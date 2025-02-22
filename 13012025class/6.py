@@ -10,6 +10,15 @@ for i in range(2):
     fd(9 * size)
     rt(90)
 up()
+fd(19.5 * size)
+rt(90)
+down()
+for i in range(2):
+    fd(20 * size)
+    rt(90)
+    fd(9 * size)
+    rt(90)
+up()
 for x in range(-30, 30):
     for y in range(-30, 30):
         setpos(x*size, y*size)
